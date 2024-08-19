@@ -5,9 +5,9 @@
 2. Open folder in Vs code
 3. Type in the commands in the terminal:
 
-git init
-git remote add origin https://github.com/shr3yu/Waterhacks.git
-git pull origin master
+- git init
+- git remote add origin https://github.com/shr3yu/Waterhacks.git
+- git pull origin master
 
 (now you should be able to change files and commit your changes)
 
