@@ -15,6 +15,6 @@ git pull origin master
 1. Download necessary dependencies in both frontend (for now)
 2. Run the command:
 
-cd frontend/whfrontend <- This will go into the whfrontend folder
-npm install <- This will install the dependencies
-npm run dev <- This should host frontend on local port
+- cd frontend/whfrontend <- This will go into the whfrontend folder
+- npm install <- This will install the dependencies
+- npm run dev <- This should host frontend on local port
