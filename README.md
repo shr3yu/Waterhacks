@@ -16,14 +16,14 @@
 2. Run the command:
 
 
-cd backend <- This will go into backend folder
-npm install <- This will install the dependencies
-npm start <- This will install the dependencies
-cd .. <- This will go back to main directory
+- cd backend <- This will go into backend folder
+- npm install <- This will install the dependencies
+- npm start <- This will install the dependencies
+- cd .. <- This will go back to main directory
 
-cd frontend/whfrontend <- This will go into the whfrontend folder
-npm install <- This will install the dependencies
-npm run dev <- This should host frontend on local port
+- cd frontend/whfrontend <- This will go into the whfrontend folder
+-npm install <- This will install the dependencies
+- npm run dev <- This should host frontend on local port
 
 Go to https://localhost:8000 to see the website (rough)
 
