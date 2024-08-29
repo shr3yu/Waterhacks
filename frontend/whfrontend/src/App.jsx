@@ -15,7 +15,7 @@ const routes = (
   <Router>
     <Routes>
       <Route path="/" exact element={<Home />} /> 
-      <Route path="/dashboard" exact element={<Test />} /> 
+      <Route path="/test" exact element={<Test />} /> 
       {/* Add more routes as needed */}
     </Routes>
   </Router>
