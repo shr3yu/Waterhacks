@@ -5,15 +5,14 @@
 
 @layer base {
   html {
-    font-family: "sans-serif" /*Change font of entire website by importing from google fonts*/
+    font-family: "arial"; /*Change font of entire website by importing from google fonts*/
   }
 
-  body{
+  body {
     background-color: whitesmoke;
     overflow-x: hidden;
   }
 }
 
-@layer components {   
-
+@layer components {
 }

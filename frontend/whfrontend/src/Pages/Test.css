@@ -1,0 +1,61 @@
+/* src/styles/Test.css */
+.content {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .heading {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 3rem;
+  }
+  
+  .paragraph {
+    font-size: 1.3rem;
+    color: #555;
+    margin-bottom: 2rem;
+    line-height: 1.4; /* Adjust line height for spacing between lines */
+  }
+  
+  .info-box {
+    display: flex;
+    flex-direction: row; /* Align children in a row */
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border-radius: 8px;
+    height: 300px; /* Set a height for the container */
+    position: relative; /* Establish a positioning context */
+  }
+  
+  .info-image {
+    width: 500px;
+    height: auto;
+    margin-right: 1rem;
+  }
+  
+  .info-text {
+    flex: 1;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+  }
+  
+  .info-heading {
+    font-size: 1.5rem; /* Make heading large */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .info-paragraph {
+    margin: 0;
+    color: #333;
+  }
+  
+  .bottom-aligned {
+    margin-top: auto; /* Push this element to the bottom of its container */
+    line-height: 1.4;
+    color: #333;
+  }

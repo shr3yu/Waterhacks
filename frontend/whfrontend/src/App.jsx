@@ -1,6 +1,7 @@
 import Home from "./Pages/Home";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Test from "./Pages/Test";
 
 /*
 routes: the different pages users can go to 
@@ -14,6 +15,7 @@ const routes = (
   <Router>
     <Routes>
       <Route path="/" exact element={<Home />} /> 
+      <Route path="/dashboard" exact element={<Test />} /> 
       {/* Add more routes as needed */}
     </Routes>
   </Router>
