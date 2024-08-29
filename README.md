@@ -36,4 +36,4 @@ This is the main react file, we will be building from this. (Go to file for more
 This is how our main page will look like, we will be adding more layers to it and more components, but for now I just have a ROUGH page. (Go to file for more info).
 
 3. index.js
-Handling API requests, connecting to mangoDB server (give ur IP adress so you can access as well)
+Handling API requests, connecting to mangoDB server (give ur IP adress so you can access as well)!
