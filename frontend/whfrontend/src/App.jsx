@@ -15,7 +15,7 @@ if we add another path "/example", we would need to go to https://localhost:8000
 const routes = (
   <Router>
     <Routes>
-      <Route path="/" exact element={<Search />} /> 
+      <Route path="/search" exact element={<Search />} /> 
       <Route path="/home" exact element={<Test />} /> 
       <Route path="/profile" exact element={<Profile/>}/>
       {/* Add more routes as needed */}
