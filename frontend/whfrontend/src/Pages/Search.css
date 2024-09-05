@@ -1,0 +1,25 @@
+.search{
+    background: #78bdbd;
+    text-align: center;
+    border-radius: 8px; 
+    width: 50%;
+    float: right;
+}
+.sbutton{
+    background: black;
+    border-radius: 8px; 
+    color: white;
+}
+.obutton{
+    background: black;
+    border-radius: 8px; 
+    color: white;
+    font-size: 20px;
+}
+.organizations{
+    background: rgb(211, 210, 210);
+    text-align: center;
+    border-radius: 8px; 
+    width: 50%;
+    float: left;
+}

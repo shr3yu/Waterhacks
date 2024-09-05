@@ -3,6 +3,10 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Test from "./Pages/Test";
 import Profile from "./Pages/Profile";
+import Query from "./Pages/Query"
+import ContactUs from "./Pages/ContactUs"
+import SignUp from "./Pages/SignUp"
+import Login from "./Pages/Login"
 
 /*
 routes: the different pages users can go to 
@@ -15,9 +19,13 @@ if we add another path "/example", we would need to go to https://localhost:8000
 const routes = (
   <Router>
     <Routes>
-      <Route path="/search" exact element={<Search />} /> 
+      <Route path="/database" exact element={<Search />} /> 
       <Route path="/home" exact element={<Test />} /> 
       <Route path="/profile" exact element={<Profile/>}/>
+      <Route path="/query" exact element={<Query/>}/>
+      <Route path="/contactus" exact element={<ContactUs/>}/>
+      <Route path="/signup" exact element={<SignUp/>}/>
+      <Route path="/login" exact element={<Login/>}/>
       {/* Add more routes as needed */}
     </Routes>
   </Router>

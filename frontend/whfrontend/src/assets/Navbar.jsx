@@ -9,10 +9,11 @@ const Navbar = () => {
       <img src={logo} className="navbar-logo-img"/>
       <ul className="navbar-links">
         <li><a href="/home">Home</a></li>
-        <li><a href="/contactUs">Contact Us</a></li>
-        <li><a href="/">Query</a></li>
+        <li><a href="/query">Query</a></li>
+        <li><a href="/database">Data Base</a></li>
         <li><a href="/signup">Sign Up</a></li>
         <li><a href="/login">Login</a></li>
+        <li><a href="/contactus">Contact Us</a></li>
         <li>
           <a href="/profile" className="navbar-icon-link">
             <IoPersonCircleOutline  size={30}/>
