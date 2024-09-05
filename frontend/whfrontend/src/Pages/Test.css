@@ -42,7 +42,7 @@
   }
   
   .bottom-aligned {
-    margin-top: auto; /* Push this element to the bottom of its container */
+    margin-top: auto; /* Push this element to the bottom of its container. */
     line-height: 1.4;
     color: #333;
   }
