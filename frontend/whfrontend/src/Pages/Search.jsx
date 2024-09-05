@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axiosInstance from "../../axiosInstance";
 
-const Home = () => {
+const Search = () => {
   const [name, setName] = useState("");
   const [tag, setTag] = useState("");
   const [tags, setTags] = useState([]);
@@ -95,4 +95,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Search;

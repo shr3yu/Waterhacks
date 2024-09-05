@@ -12,17 +12,20 @@
   height: 70px;
   width: auto;
   margin-right: auto;
+
 }
 
 .navbar-links {
   list-style: none;
-  margin: 0;
+  margin: 20px;
   padding: 0;
   display: flex;
 }
 
 .navbar-links li {
   margin-left: 3rem;
+  display: flex;               /* Ensure the icon is centered within the link */
+  align-items: center;         /* Center icon vertically */
 }
 
 .navbar-links a {

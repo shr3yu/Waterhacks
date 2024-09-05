@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css'; // Import the CSS file for styling
 import logo from './logo.png'; // Import the logo image
+import { IoPersonCircleOutline } from "react-icons/io5";
 const Navbar = () => {
   return (
     <div className="navbar">
@@ -12,6 +13,11 @@ const Navbar = () => {
         <li><a href="/">Query</a></li>
         <li><a href="/signup">Sign Up</a></li>
         <li><a href="/login">Login</a></li>
+        <li>
+          <a href="/profile" className="navbar-icon-link">
+            <IoPersonCircleOutline  size={30}/>
+          </a>
+        </li>
       </ul>
     </div>
   );
