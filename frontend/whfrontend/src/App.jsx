@@ -1,7 +1,8 @@
-import Home from "./Pages/Home";
+import Search from "./Pages/Search";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Test from "./Pages/Test";
+import Profile from "./Pages/Profile";
 
 /*
 routes: the different pages users can go to 
@@ -14,8 +15,9 @@ if we add another path "/example", we would need to go to https://localhost:8000
 const routes = (
   <Router>
     <Routes>
-      <Route path="/" exact element={<Home />} /> 
-      <Route path="/test" exact element={<Test />} /> 
+      <Route path="/search" exact element={<Search />} /> 
+      <Route path="/home" exact element={<Test />} /> 
+      <Route path="/profile" exact element={<Profile/>}/>
       {/* Add more routes as needed */}
     </Routes>
   </Router>
