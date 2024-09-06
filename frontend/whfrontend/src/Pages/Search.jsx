@@ -54,6 +54,7 @@ const Search = () => {
     <>
     <Navbar />
     <br></br>
+    <div className="box">
       <div className="search">
         <h1> ADD A NEW ORGANIZATION</h1>
         <div>
@@ -71,7 +72,6 @@ const Search = () => {
         </div>
         <button className="obutton" onClick={addNewOrg}>ADD ORGANIZATION</button>
         </div>
-        <br></br>
         <div className="organizations">
         <h1>ALL ORGANIZATIONS IN DATA BASE</h1>
         <ul>
@@ -90,6 +90,7 @@ const Search = () => {
             </div>
           ))}
         </ul>
+      </div>
       </div>
     </>
   );
