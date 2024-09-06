@@ -16,7 +16,7 @@ const routes = (
   <Router>
     <Routes>
       <Route path="/search" exact element={<Search />} /> 
-      <Route path="/home" exact element={<Test />} /> 
+      <Route path="/" exact element={<Test />} /> 
       <Route path="/profile" exact element={<Profile/>}/>
       {/* Add more routes as needed */}
     </Routes>
