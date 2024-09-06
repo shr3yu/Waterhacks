@@ -22,7 +22,7 @@ const routes = (
       <Route path="/database" exact element={<Search />} /> 
       <Route path="/" exact element={<Test />} /> 
       <Route path="/profile" exact element={<Profile/>}/>
-      <Route path="/query" exact element={<Query/>}/>
+      <Route path="/search" exact element={<Query/>}/>
       <Route path="/contactus" exact element={<ContactUs/>}/>
       <Route path="/signup" exact element={<SignUp/>}/>
       <Route path="/login" exact element={<Login/>}/>
