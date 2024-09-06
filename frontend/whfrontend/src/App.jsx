@@ -5,7 +5,7 @@ import Test from "./Pages/Test";
 import Profile from "./Pages/Profile";
 import Query from "./Pages/Query"
 import ContactUs from "./Pages/ContactUs"
-import SignUp from "./Pages/SignUp"
+import SignUp from "./Pages/Account"
 import Login from "./Pages/Login"
 
 /*
@@ -24,8 +24,7 @@ const routes = (
       <Route path="/profile" exact element={<Profile/>}/>
       <Route path="/search" exact element={<Search/>}/>
       <Route path="/contactus" exact element={<ContactUs/>}/>
-      <Route path="/signup" exact element={<SignUp/>}/>
-      <Route path="/login" exact element={<Login/>}/>
+      <Route path="/account" exact element={<Account/>}/>
       {/* Add more routes as needed */}
     </Routes>
   </Router>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "../assets/Navbar";
 
-function Login(){
+function Account(){
     return (
         <>
             <Navbar />
@@ -9,4 +9,4 @@ function Login(){
     )
 }
 
-export default Login;
+export default Account;
