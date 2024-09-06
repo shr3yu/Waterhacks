@@ -3,6 +3,10 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Test from "./Pages/Test";
 import Profile from "./Pages/Profile";
+import Query from "./Pages/Query"
+import ContactUs from "./Pages/ContactUs"
+import SignUp from "./Pages/SignUp"
+import Login from "./Pages/Login"
 
 /*
 routes: the different pages users can go to 
